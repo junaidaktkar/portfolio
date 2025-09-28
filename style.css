@@ -6,11 +6,11 @@
 
 body {
   background-color: #1f1f1f;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #fff;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff; */
 }
 
-/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -21,7 +21,7 @@ body {
   z-index: 1000;
   background: rgba(20, 20, 20, 0.8);
   backdrop-filter: blur(6px);
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 8px rgba(113, 109, 109, 0.5);
 }
 
 .container {
@@ -33,18 +33,20 @@ body {
 
 .container > a {
   color: white;
+  font-family: 'BrandonText Regular' ;
   text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 1rem;
+  letter-spacing: 3px;
+  font-size: 15px;
   padding: 8px 16px;
   border-radius: 6px;
   transition: all 0.3s ease-in-out;
 }
 
 .container > a:hover {
-  background-color: orange;
-  color: #1f1f1f;
-  transform: scale(1.05);
+    color: #ff9100;
+  /* background-color: orange; */
+  /* color: #1f1f1f; */
+  /* transform: scale(1.05); */
 }
 
 /* Home Section */
@@ -61,13 +63,17 @@ body {
   font-size: 3rem;
   color: orange;
   letter-spacing: 4px;
+  font-family: "Roboto, Helvetica, Arial, sans-serif";
 }
 
 .info h2 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+  margin-top: 20px;
   margin-bottom: 20px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   color: #ddd;
+  font-family: 'BrandonText Regular' ;
 }
 
 .info p {
@@ -121,3 +127,132 @@ body {
   transform: scale(1.05);
   box-shadow: 0px 0px 30px rgba(255, 165, 0, 0.8);
 }
+
+.info>p{
+    font-family: 'BrandonText Regular' !important;
+    letter-spacing: 1px;
+    color: lightgray;
+}
+
+
+.tag {
+  margin: 60px 0 30px;
+}
+
+.tag > h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: orange;
+  letter-spacing: 6px;
+  font-family: "Segoe UI", sans-serif;
+  text-transform: uppercase;
+}
+
+
+.skillsection{
+    /* display: flex; */
+    height: 60vh;
+    /* background: #252525; */
+    /* border: 2px solid white; */
+    justify-items: center;
+    align-content:  center;
+    margin-top: 0%;
+    box-shadow: 0px 0px 15px #655d5d;
+}
+
+.subskill{
+    display: flex;
+    height: 25vh;
+    width: 80%;
+    margin-top: 0%;
+    justify-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    /* border: 2px solid white; */
+    
+}
+.skills{
+    /* border: 2px solid white; */
+    width: 13%;
+    /* height: 200px; */
+    border-radius: 10%;
+    justify-items: center;
+    background-color: #1f1f1f;
+    transition: all 1s ease;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px bisque;
+
+}
+.skills>img{
+    width: 90px;
+    height: 85px;
+    margin-left: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* margin-left: 5px; */
+    /* box-shadow: 0px 0px 5px rgba(255, 165, 0, 0.5);
+  transition: all 0.3s ease-in-out; */
+}
+.skills:hover{
+  transform: scale(1.07);
+  box-shadow: 0px 0px 10px rgba(255, 165, 0, 0.8);
+}
+.skills>p{
+    color: white;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.skills2>p{
+    color: white;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subskill2{
+    display: flex;
+    height: 25vh;
+    width: 60%;
+    margin-top: 25px;
+    justify-items: center;
+    align-content: center;
+    justify-content: space-around;
+    /* border: 2px solid white; */
+    gap: 30px;
+    
+
+}
+.skills2{
+    /* border: 2px solid white; */
+    width: 17%;
+    border-radius: 10%;
+    /* height: 200px; */
+    justify-items: center;
+    background-color: #1f1f1f;
+    transition: all 1s ease;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px bisque
+}
+
+.skills2>img{
+     width: 90px;
+    height: 85px;
+    margin-left: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+   
+    /* box-shadow: 0px 0px 5px rgba(255, 165, 0, 0.5); */
+  /* transition: all 0.3s ease-in-out; */
+}
+
+.skills2:hover{
+    transition: all 1s ease;
+   transform: scale(1.07);
+  box-shadow: 0px 0px 10px rgba(255, 165, 0, 0.8);
+}
+
+
+
+
+/* 'BrandonText Regular' !important; */
+    /* font-family: Roboto, Helvetica, Arial, "sans-serif"; */
