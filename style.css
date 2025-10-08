@@ -448,7 +448,9 @@ body {
     margin-top: 3%;
 }
 
-
+.add>a{
+  color: blue;
+}
 .add:hover{
   transition: all 0.3s ease-in-out;
   background-color: #ff9100;
