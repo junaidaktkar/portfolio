@@ -189,6 +189,8 @@ body {
     box-shadow: 1px 1px 3px bisque;
 
 }
+
+
 .skills>img{
     width: 90px;
     height: 85px;
@@ -241,8 +243,9 @@ body {
     box-shadow: 1px 1px 3px bisque;
 }
 
+
 .skills2>img{
-     width: 90px;
+    width: 90px;
     height: 85px;
     margin-left: 15px;
     border-radius: 50%;
@@ -295,7 +298,7 @@ body {
 }
 .project>img{
   margin-left: 15px;
-  width:90%;
+  width:94%;
   height: 33%;
   border-radius: 15px;
 }
@@ -320,7 +323,7 @@ body {
   width: 38%;
   height: 8%;
   bottom: 6%;
-  left: 25%;
+  left: 30%;
   border-radius: 36px;
   /* border: 2px solid white; */
   background-color: black;
@@ -452,7 +455,7 @@ body {
 }
 
 .add>a{
-  color: blue;
+  color: rgb(255, 255, 255);
 }
 .add:hover{
   transition: all 0.3s ease-in-out;
@@ -461,7 +464,7 @@ body {
 }
 
 .bi-geo-alt-fill{
-  color: blue;
+  color: rgb(255, 255, 255);
 }
 
 .add2{
@@ -583,12 +586,12 @@ body {
 }
 
 .msgbt{
-  width: 140px;
-  height: 45px;
+  width: 125px;
+  height: 43px;
   border: 2px solid white;
   border-radius: 36px;
   background-color: #2c2c2c;
-  padding-left: 22px;
+  padding-left: 20px;
   align-content: center;
   border: none;
   justify-self: center;
@@ -693,4 +696,6 @@ body {
 .footer-bottom>h4{
   margin-bottom: 15px;
 }
+
+
 
